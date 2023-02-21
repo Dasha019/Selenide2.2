@@ -30,7 +30,7 @@ public class RegistrationTest {
             $("button.button").click();
             $("[data-test-id='notification']")
                     .shouldBe(Condition.visible, Duration.ofSeconds(20))
-                    .shouldHave(Condition.exactText("Встреча успешно забронирована на " + currentDate));
+                    .shouldHave(Condition.exactText("Успешно! Встреча успешно забронирована на " + currentDate));
         }
     }
 
