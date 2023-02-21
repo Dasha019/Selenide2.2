@@ -1,0 +1,1 @@
+![example workflow](https://github.com/Dasha019/Selenide2.2/actions/workflows/gradle.yml/badge.svg)
